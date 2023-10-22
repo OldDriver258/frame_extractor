@@ -1,0 +1,4 @@
+extracted_frames/*
+test_video/*
+!test_video/anhunqu.mp4
+!test_video/ganyu.mp4
