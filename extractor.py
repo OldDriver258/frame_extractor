@@ -231,7 +231,7 @@ class FrameExtractor:
             # Typeset images onto one page
             for row in range(page_row):
                 for col in range(page_col):
-                    index = page * page_frm + row * page_row + col
+                    index = page * page_frm + row * page_col + col
                     if (index >= self.sample_frm):
                         end_flag = True
                         break
